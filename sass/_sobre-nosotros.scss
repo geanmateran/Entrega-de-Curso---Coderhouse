@@ -1,0 +1,19 @@
+.sobre-nosotros{
+    text-align: center;
+    background-color: $background-color-menu;
+    color: $font-color-menu;
+    background-size: cover;
+    padding: 10%;
+    padding-bottom: 20%;
+    padding-top: 20%;
+    
+    .contenedor-fluid-sobre-nosotros{
+        padding: 60%;
+        display: 100vh;
+
+    }
+}
+
+.parrafo-sobre-nosotros {
+    margin-top: 30px;
+}

@@ -1,0 +1,104 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+#intro {
+    
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+
+
+
+
+.Menu {
+    background-color:$background-color-menu;
+    color:$font-color-menu;
+}
+
+.header-menu {
+    padding: 10%;
+    padding-bottom: 20%;
+}
+
+
+.fondo {
+    display: 100vh;
+}
+
+.banner{
+    height: 100vh;
+    width: 100%;
+    background:url(/image/fondocover.png);
+    background-position: top;
+    background-size: cover;
+    /*background-attachment: fixed;*/
+    background-repeat: no-repeat;
+
+}
+
+.container-fluid {
+    color: white;
+}
+.container-fluid a{
+    color: white;
+}
+.banner .navbar {
+   
+    background: black;
+   
+
+}
+
+.banner .navbar-brand{
+    color: #ffffff;
+    font-size: 1.4em;
+    font-weight: 500;
+    margin-left: 4%;
+}
+
+
+
+#booking {
+    margin-top: 15%;
+}
+
+.banner .info {
+    margin-top: 20%;
+}
+
+.banner .info h1{
+    font-size: 4em;
+    font-weight: 600;
+    font-style: italic;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 8%;
+    letter-spacing: 3px;
+}
+
+.banner .info p{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;  
+}
+
+.banner .info a{
+    margin-left: 60%;
+    background: #e91d43;
+    border-radius: 7px;
+    padding: 10px 15px;
+}
+
+#sobre-nosotros{
+    background-size: cover;
+}
+
+footer p {
+    margin-top: 10%;
+    margin-left: 40%;
+    margin-bottom: 8%;
+}
